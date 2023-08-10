@@ -11,3 +11,9 @@ print(dice_list)
 print(f'合計は{sum(dice_list)}でした')
 print(f'最大は{max(dice_list)}でした')
 print(f'最小は{min(dice_list)}でした')
+
+num=int(input('何回振る?>>'))
+dice_list=[random.randint(1,6) for _ in range(num)]
+print(dice_list)
+print(f'合計は{sum(dice_list)}でした')
+
