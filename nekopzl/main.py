@@ -105,7 +105,7 @@ def draw_txt(txt,x,y,siz,col,tg):
 
 def game_main():
 		global index,timer,score,tsugi,hisc,difficulty
-		global cursor_x,cusor_y,mouse_c
+		global cursor_x,cursor_y,mouse_c
 		if index==0: #タイトルロゴ
 				draw_txt('ねこねこ',312,240,100,'violet','TITLE')
 				cvs.create_rectangle(168,384,456,456,fill='skyblue', width=0, tag="TITLE")

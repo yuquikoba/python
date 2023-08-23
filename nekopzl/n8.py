@@ -103,7 +103,7 @@ def draw_txt(txt,x,y,siz,col,tg):
 
 def game_main():
 		global index,timer,score,tsugi
-		global cursor_x,cusor_y,mouse_c
+		global cursor_x,cursor_y,mouse_c
 		if index==0: #タイトルロゴ
 				draw_txt('ねこねこ',312,240,100,'violet','TITLE')
 				draw_txt('Click to start.',312,560,50,'orange','TITLE')
